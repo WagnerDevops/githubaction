@@ -7,5 +7,5 @@ jobs:
   job-teste:
     runs-on: ubuntu-latest
     steps:
-	- name: Print boas vindas
-	  run: echo "Usando rep ${{ github.repository }} !"
+      - name: Print boas vindas
+	run: echo "Usando rep ${{ github.repository }} !"
